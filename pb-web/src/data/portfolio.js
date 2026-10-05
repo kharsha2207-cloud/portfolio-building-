@@ -1,0 +1,68 @@
+export const portfolio = {
+  name: 'Kenchareddy Harsha',
+  tag: 'COMPUTER SCIENCE STUDENT',
+  title: 'Computer Science Student | Aspiring Software Developer',
+  education: 'Bachelor of Technology in Computer Science and Engineering',
+  college: 'Your College Name',
+  location: 'City, State, Country',
+  currentYear: '3rd Year',
+  headline: 'I build software, explore AI, and turn ideas into working projects.',
+  intro:
+    'I am a Computer Science student focused on web development, software engineering, and practical problem solving. I enjoy building interfaces that feel clean, useful, and thoughtfully designed while learning the systems behind them.',
+  about:
+    'I am currently pursuing my degree in Computer Science and learning the fundamentals of software development through projects, coursework, and hands-on problem solving. My interests include web development, data structures, AI/ML, and building products that solve real problems. I am especially interested in creating reliable frontend experiences and learning how full-stack systems work together.',
+  careerGoals: ['Software Developer', 'Full-Stack Developer', 'AI/ML Engineer'],
+  links: {
+    github: 'https://github.com/kharsha2207-cloud',
+    linkedin: 'https://www.linkedin.com/in/k-harsha-0a9b27407',
+    email: 'kharsha2207@gmail.com',
+    resume: '#',
+  },
+  skills: [
+    { title: 'Languages', items: ['C · Good', 'C++ · Intermediate', 'Java · Intermediate', 'Python · Good', 'JavaScript · Good', 'SQL · Intermediate'] },
+    { title: 'Web Development', items: ['HTML · Good', 'CSS · Good', 'JavaScript · Good', 'React · Good', 'Tailwind CSS · Good', 'Node.js · Learning'] },
+    { title: 'Database', items: ['MySQL · Intermediate', 'PostgreSQL · Learning'] },
+    { title: 'Tools', items: ['Git · Good', 'GitHub · Good', 'VS Code · Good', 'Figma · Learning'] },
+    { title: 'Currently Learning', items: ['Next.js · Learning', 'System Design · Learning', 'Machine Learning · Exploring', 'Data Structures · Improving'] },
+  ],
+  projects: [
+    {
+      title: 'Smart India Hackathon 2026',
+      description: 'Developed an AI-based intelligent video analytics platform for border surveillance using existing CCTV infrastructure to detect suspicious movement and restricted-zone violations.',
+      problem: 'To improve border security monitoring by identifying people and vehicles, tracking unauthorized activity, and generating alerts using computer vision without requiring new hardware systems.',
+      tech: ['Python', 'YOLO', 'OpenCV', 'SQL', 'AI/ML', 'Computer Vision'],
+      github: 'https://github.com/kharsha2207-cloud',
+      demo: '#',
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'Designed and developed a polished personal portfolio to present my skills, projects, and programming journey in a professional and modern format.',
+      problem: 'To create a strong digital presence that showcases technical work and makes it easier to share achievements with recruiters and collaborators.',
+      tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript'],
+      github: 'https://github.com/kharsha2207-cloud',
+      demo: '#',
+    },
+    {
+      title: 'AI & Problem-Solving Practice',
+      description: 'Worked on coding exercises and small projects to strengthen my understanding of algorithms, data structures, and practical software design.',
+      problem: 'To improve problem-solving confidence and build technical depth through consistent practice and hands-on implementation.',
+      tech: ['C++', 'Python', 'Data Structures', 'Algorithms'],
+      github: 'https://github.com/kharsha2207-cloud',
+      demo: '#',
+    },
+  ],
+  certifications: [
+    { name: 'Smart India Hackathon 2026 Participation', organization: 'SIH 2026', year: '2026', link: 'https://www.linkedin.com/in/venkatesh-p-221882395/' },
+    { name: 'Python and AI Foundations', organization: 'Self-Learning / Skill Development', year: '2025', link: '#' },
+  ],
+  learningJourney: [
+    'Participated in Smart India Hackathon 2026, where I contributed to an AI-based intelligent video analytics project for border surveillance and restricted-zone monitoring.',
+    'Started programming and built a strong foundation in problem solving.',
+    'Learned core programming concepts and improved analytical thinking.',
+    'Built small projects to understand real-world software development practices.',
+    'Started learning web development and frontend engineering.',
+    'Exploring AI and machine learning with a focus on practical applications.',
+    'Improving problem-solving through coding challenges and project work.',
+    'Preparing for software development roles with a stronger portfolio and technical depth.',
+  ],
+};
